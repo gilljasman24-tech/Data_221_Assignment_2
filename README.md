@@ -10,3 +10,5 @@ This repository contains Python solutions for Assignment 2.
   Analyzes bigrams from a text file and prints the five most frequent consecutive word pairs.
 - **question3.py**  
   Identifies near-duplicate lines in a text file after normalization and reports matching line sets.
+- **question4.py**  
+  Filters student records based on study time, internet access, and absences, then saves the results and reports summary statistics.
