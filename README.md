@@ -8,3 +8,5 @@ This repository contains Python solutions for Assignment 2.
   Input text file used for the word frequency analysis in Question 1.
 - **question2.py**  
   Analyzes bigrams from a text file and prints the five most frequent consecutive word pairs.
+- **question3.py**  
+  Identifies near-duplicate lines in a text file after normalization and reports matching line sets.
