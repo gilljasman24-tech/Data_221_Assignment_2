@@ -10,6 +10,8 @@ This repository contains Python solutions for Assignment 2.
   Contains records of students with high engagement based on study time, internet access, and low absences.
 - **student_bands.csv**  
   Summary table showing the number of students, average absences, and percentage of internet access for each grade band.
+- **headings.txt**  
+  Contains cleaned Wikipedia section headings for question 8.
 
 ## Question Files
 - **question1.py**  
@@ -26,3 +28,5 @@ This repository contains Python solutions for Assignment 2.
   Categorizes communities by crime risk level and compares average unemployment rates between groups.
 - **question7.py**  
   Scrapes the Wikipedia Data Science page to extract the page title and first article paragraph.
+- **question8.py**  
+  Extracts section headings from the Wikipedia Data Science page and saves them to a text file.
