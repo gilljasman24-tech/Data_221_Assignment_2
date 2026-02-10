@@ -12,6 +12,8 @@ This repository contains Python solutions for Assignment 2.
   Summary table showing the number of students, average absences, and percentage of internet access for each grade band.
 - **headings.txt**  
   Contains cleaned Wikipedia section headings for question 8.
+- **wiki_table.csv**  
+  Contains tabular data extracted from the Wikipedia Machine Learning page.
 
 ## Question Files
 - **question1.py**  
@@ -30,3 +32,5 @@ This repository contains Python solutions for Assignment 2.
   Scrapes the Wikipedia Data Science page to extract the page title and first article paragraph.
 - **question8.py**  
   Extracts section headings from the Wikipedia Data Science page and saves them to a text file.
+- **question9.py**  
+  Extracts the first qualifying table from the Wikipedia Machine Learning page and saves it as a CSV file.
