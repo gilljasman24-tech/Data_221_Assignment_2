@@ -22,3 +22,5 @@ This repository contains Python solutions for Assignment 2.
   Filters student records based on study time, internet access, and absences, then saves the results and reports summary statistics.
 - **question5.py**  
   Creates grade bands for students and generates a grouped summary table with attendance and internet access statistics.
+- **question6.py**  
+  Categorizes communities by crime risk level and compares average unemployment rates between groups.

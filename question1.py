@@ -1,16 +1,16 @@
 import string
 
-# Read the contents of the text file.
+# Read the contents of the text file
 file = open("sample-file.txt", "r", encoding="utf-8")
 text = file.read()
 file.close()
 
-# Split the text into individual words.
+# Split the text into individual words
 words = text.split()
 
 cleaned_words = []
 
-# Clean and filter each word.
+# Clean and filter each word
 for word in words:
     word = word.lower()
     word = word.strip(string.punctuation)
@@ -23,7 +23,7 @@ for word in words:
     if letter_count >= 2:
         cleaned_words.append(word)
 
-# Count the frequency of each word.
+# Count the frequency of each word
 word_counts = {}
 
 for word in cleaned_words:
@@ -32,10 +32,10 @@ for word in cleaned_words:
     else:
         word_counts[word] = 1
 
-# Sort words by frequency in descending order.
+# Sort words by frequency in descending order
 sorted_words = sorted(word_counts.items(), key=lambda x: x[1], reverse=True)
 
-# Print the ten most frequent words.
+# Print the ten most frequent words
 count = 0
 for word, freq in sorted_words:
     if count == 10:
