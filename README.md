@@ -34,3 +34,5 @@ This repository contains Python solutions for Assignment 2.
   Extracts section headings from the Wikipedia Data Science page and saves them to a text file.
 - **question9.py**  
   Extracts the first qualifying table from the Wikipedia Machine Learning page and saves it as a CSV file.
+- **question10.py**  
+  Defines a reusable function that searches a text file for lines containing a given keyword and reports matching line numbers and text.
