@@ -35,5 +35,5 @@ for heading in clean_headings:
     file.write(heading + "\n")
 file.close()
 
-# Optional: print confirmation
+# Print confirmation
 print("Saved", len(clean_headings), "headings to headings.txt")

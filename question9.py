@@ -38,7 +38,7 @@ for table in tables:
     rows = table_rows
     break
 
-# Safety check (should never fail now, but required)
+# Safety check
 if not rows:
     raise RuntimeError("No suitable table found on the page.")
 
