@@ -24,3 +24,5 @@ This repository contains Python solutions for Assignment 2.
   Creates grade bands for students and generates a grouped summary table with attendance and internet access statistics.
 - **question6.py**  
   Categorizes communities by crime risk level and compares average unemployment rates between groups.
+- **question7.py**  
+  Scrapes the Wikipedia Data Science page to extract the page title and first article paragraph.
